@@ -1,0 +1,71 @@
+
+
+
+3 tier architecture:
+1. Presentation layer (UI) - also known as the user interface layer
+2. Application Layer (AL) - also known as the business logic layer (BLL)
+3. Data access layer (DAL) - also known as the repository layer
+
+Backend and server:
+Backend refers to the server-side of an application, which includes the database, server, and application logic.
+The backend is responsible for processing requests from the frontend (UI) and returning the appropriate responses.
+
+Server:
+Server is a computer or system that provides resources, data, services, or programs to other computers, known as clients, over a network. 
+Servers can host websites, manage databases, and handle application logic.
+
+=> IP address:An IP address (Internet Protocol address) is a unique identifier assigned to each device connected to a network
+    that uses the Internet Protocol for communication. It serves two main functions: identifying the host or network interface and 
+    providing the location of the host in the network.
+
+=> DNS (Domain Name System):DNS is a hierarchical system that translates human-readable domain names (like www.example.com) 
+    into IP addresses that computers use to identify each other on the network.
+    It acts as a phonebook for the internet, allowing users to access websites and services using easy-to-remember 
+    names instead of numerical IP addresses.
+
+=> HTTP (Hypertext Transfer Protocol):HTTP is the protocol used for transmitting hypertext (web pages) over the internet.
+    It defines how messages are formatted and transmitted, and how web servers and browsers should respond to various commands. 
+    HTTP is the foundation of data communication on the World Wide Web.
+
+=> HTTPS (Hypertext Transfer Protocol Secure):HTTPS is an extension of HTTP that adds a layer of security by using SSL/TLS encryption.
+    It ensures that the data transmitted between the user's browser and the web server is encrypted and secure from eavesdropping or tampering.
+    HTTPS is commonly used for secure online transactions, such as banking and e-commerce.
+
+=>IP Address: An IP address (Internet Protocol address) is a unique identifier assigned to each device connected to a network 
+    that uses the Internet Protocol for communication. It serves two main functions: identifying the host or network interface 
+    and providing the location of the host in the network.
+    Ipv4 (Internet Protocol version 4) is the most widely used version of the Internet Protocol, which uses a 32-bit address format
+    Ipv6 (Internet Protocol version 6) is the successor to IPv4, designed to address the limitations of IPv4, such as the limited number of available addresses.
+    IPv6 uses a 128-bit address format, allowing for a significantly larger number of unique addresses compared to IPv4.
+
+=>Protocol: A protocol is a set of rules and conventions that define how data is transmitted and received over a network. 
+    Protocols ensure that devices can communicate effectively and understand each other's messages. Examples of protocols 
+    include HTTP, HTTPS, FTP, and TCP/IP.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+DAY 2:  Git and GitHub:
+1. Tracking Area or Staging area: The staging area is a place where you can prepare changes before committing them to the repository. 
+                                  It allows you to review and organize your changes before finalizing them.
+2. Repository: A repository is a storage location for your project's files and version history. It can be local (on your computer) 
+               or remote (on a server like GitHub).
+
+Commands:
+1. git init: Initializes a new Git repository in the current directory.
+2. git add: Adds files to the staging area.
+
+    => git add <filename/folder>
+    => git add filename filename ...
+    => git add./git add-A : Adds all changes (new, modified, and deleted files) to the staging area. 
+    
+3. git commit: Commits the changes in the staging area to the repository.
+
+    => git commit -m "commit message": Commits the changes with a descriptive message.
+
+4. git push: Pushes the committed changes to a remote repository.
+5. git pull: Pulls the latest changes from a remote repository.
+6. git clone: Creates a copy of a remote repository on your local machine. 
+7. git status: Displays the current status of the repository, including changes that have been staged, modified, or untracked.
+8. git log: Shows the commit history of the repository.
+9. git branch: Lists all branches in the repository and indicates the current branch.
+10. git checkout: Switches to a different branch or restores files in the working directory.
+    => git checkout <commit id>/<branch_name>: Switches to the specified branch.
