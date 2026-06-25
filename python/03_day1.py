@@ -31,14 +31,15 @@
 # * * 
 # * * * 
 # * * * * 
-
-# for i in range(5):
+# n=int(input("Enter : "))
+# for i in range(1,n+1):
 #     for j in range(1,i+1):
 #         print('*', end=" ")
 #     print()
 
-# for i in range(5):
-#         print("*"*i,end="\n")
+# n=int(input("Enter : "))
+# for i in range(1,n+1):
+#         print("* "*i,end="\n")
 
 #Pattern 3
 
@@ -134,3 +135,45 @@
 # **    **
 # *      *
 
+# n = int(input("Enter the number of rows: "))
+
+# for i in range(1, n + 1):
+#     print("*" * i, end="")
+#     print(" " * (2 * (n - i)), end="")
+#     print("*" * i)
+
+
+# for i in range(n - 1, 0, -1):
+#     print("*" * i, end="")
+#     print(" " * (2 * (n - i)), end="")
+#     print("*" * i)
+
+# Pattern 9:
+# A 
+# A B 
+# A B C 
+# A B C D 
+# A B C D E 
+
+# n=int(input("Enter : "))
+# for i in range(n):
+#     for j in range(i+1):
+#         print(chr(ord('A')+j), end=" ")
+#     print()
+
+#Right angled triangle
+# n=5
+# for i in range(n):
+#     for j in range(i,n):
+#         print(" ",end=" ")
+#     for j in range(i+1):
+#         print("*",end=" ")
+#     print()
+#Inverted Right angled triangle
+# n=5
+# for i in range(n):
+#     for j in range(i+1):
+#         print(" ",end=" ")
+#     for j in range(i,n):
+#         print("*",end=" ")
+#     print()  
